@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan("com.springboot.web")
 
-public class SpringbootFirstwebappApplication {
+public class UserInfoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootFirstwebappApplication.class, args);
+		SpringApplication.run(UserInfoApplication.class, args);
 	}
 }
